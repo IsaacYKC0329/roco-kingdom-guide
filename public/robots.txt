@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://isaacykc0329.github.io/roco-kingdom-guide/sitemap.xml
