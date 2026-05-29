@@ -4,13 +4,10 @@
     <meta charset="utf-8">
     <title>Roco Kingdom Guide</title>
     <script type="text/javascript">
-      // GitHub Pages SPA support — redirect all 404s to index.html
-      // while preserving the original URL so client-side routing works
-      var segmentCount = 1; // Set to 1 if deploying to a project page (e.g. /repo-name/), 0 for user page
+      // GitHub Pages SPA support for the custom domain.
       var l = window.location;
-      var repo = l.pathname.split('/')[1] || '';
       sessionStorage.redirect = l.href;
-      l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/' + repo + '/');
+      l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/');
     </script>
   </head>
   <body>
