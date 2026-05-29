@@ -35,6 +35,7 @@ jobs:
 
       - name: Copy public files to dist
         run: |
+          cp public/CNAME dist/ 2>/dev/null || true
           cp public/404.html dist/ 2>/dev/null || true
           cp public/robots.txt dist/ 2>/dev/null || true
           cp public/sitemap.xml dist/ 2>/dev/null || true
